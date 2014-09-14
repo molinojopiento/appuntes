@@ -16,11 +16,10 @@
 /tmp
 
 # Mis ignoraciones ignoradas
-/app/*
-/bin/*
-config/
-/db/*
-/lib/*
-/test/*
-/tmp/*
-/vendor/*
+/app
+/bin
+/config
+/db
+/lib
+/test
+/vendor
