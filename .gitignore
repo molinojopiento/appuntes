@@ -14,3 +14,13 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Mis ignoraciones ignoradas
+/app/*
+/bin/*
+/config/*
+/db/*
+/lib/*
+/test/*
+/tmp/*
+/vendor/*
