@@ -1,0 +1,64 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "compass/css3";
+
+@import "compass/utilities";
+
+$color : grey;
+
+body {
+  background:url(/images/bg.jpg) fixed no-repeat center center;
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.row{
+	margin-left:30px;
+}
+
+h1{
+	color:white;
+}
+
+.texto h3 {
+	margin-top:160px;
+	color:#777;
+}
+
+.texto h4 {
+	color:#999;
+	font-size: 19px;
+	}
+
+// Small screens
+@media only screen and (max-width: 40em) {
+	.texto h3 {
+		color:white;
+	}
+}
+
+
+.foto {
+  width: 100%;
+  margin: 10px;
+  border: solid 2px $color;
+  padding: 5px;
+}
+
+#border-radius {
+  @include border-radius(150px);
+}

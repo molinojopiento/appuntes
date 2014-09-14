@@ -16,8 +16,6 @@
 /tmp
 
 # Mis ignoraciones ignoradas
-/app
-!/app/assets
 /bin
 /config
 /db
