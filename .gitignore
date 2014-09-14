@@ -18,7 +18,7 @@
 # Mis ignoraciones ignoradas
 /app/*
 /bin/*
-/config/*
+/config/
 /db/*
 /lib/*
 /test/*
